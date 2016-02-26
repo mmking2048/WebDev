@@ -1,0 +1,83 @@
+/* Base styles */
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 175%;
+  margin-top: 30px;
+  text-align: center;
+}
+
+section {
+  background-color: lightgray;
+	border: 1px solid black;
+  box-sizing: border-box;
+  display: inline;
+	position: relative;
+  margin-bottom: 20px;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+section > h1 {
+  border: 1px solid black;
+  float: right;
+  font-size: 125%;
+  margin-top: 0;
+  padding: 10px 50px 10px 50px;
+  text-align: center;
+}
+
+section#chicken > h1 {
+  background-color: #FFC0CB; /* Pink */
+}
+
+section#beef > h1 {
+  background-color: #CD5C5C; /* Indian red */
+  color: white;
+}
+
+section#sushi > h1 {
+  background-color: #F0E68C; /* Khaki */
+}
+
+section > p {
+	margin-top: 70px;
+  padding: 10px 10px 10px 20px;
+}
+
+/* Simple Responsive Framework. */
+.row {
+	width: 100%;
+}
+
+/* Desktop version */
+/* Column widths are adjusted so that sections don't get squeezed off the line */
+@media (min-width: 992px) {
+	.col-d-4 {
+    float: left;
+    width: 31.33%;
+  }
+}
+
+/* Tablet version */
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-t-6, .col-t-12 {
+    float: left;
+  }
+  .col-t-6 {
+    width: 48%;
+  }
+  .col-t-12 {
+    width: 98%;
+  }
+}
+
+/* Mobile version */
+@media (max-width: 767px) {
+  .col-m-12 {
+    float: left;
+    width: 98%;
+  }
+}
