@@ -1,0 +1,47 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	font-weight: bold;
+}
+
+h2 {
+	font-weight: bold;
+}
+
+#header-nav {
+	background-color: lightgray;
+}
+
+#main-content {
+	margin-top: 50px;
+}
+
+#menu-navbar-collapse > #nav-list > li {
+	background-color: gray;
+}
+
+#menu-navbar-collapse > #nav-list > li > a {
+	color: white;
+	border: 1px solid black;
+}
+
+#menu-navbar-collapse {
+	/* Override padding so that the dropdown menu will take up width of window */
+	padding: 0px;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
+
+section {
+	background-color: lightgray;
+}
+
+#filler {
+	background-color: gray;
+	margin-top: 100px;
+	min-height: 1000px;
+}
