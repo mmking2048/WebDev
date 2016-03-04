@@ -17,7 +17,9 @@ h1 {
 
 /* Main section */
 #main-content {
-	margin-top: 60px;
+    /* Margin required for navbar-fixed-top */
+	/* margin-top: 70px; */
+    margin-bottom: 70px;
 }
 
 /* Override menu dropdown width */
@@ -56,13 +58,6 @@ section > div > h3 {
 	/* Adjust the position so that text is not hidden under navbar */
 	margin-top: -50px;
 	padding-top: 60px;
-}
-
-/* Filler section */
-#filler {
-	background-color: gray;
-	margin-top: 100px;
-	min-height: 1000px;
 }
 
 /* top, left, bottom, right */
